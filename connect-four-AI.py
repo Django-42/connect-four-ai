@@ -1,3 +1,5 @@
+#Connect four with AI, so one single player
+
 from collections import defaultdict
 spielfeld = {}  # Key = (spalte, zeile), Value = 'O' oder 'X'
 
