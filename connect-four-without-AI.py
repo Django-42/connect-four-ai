@@ -5,7 +5,7 @@ spielfeld = {}  # Key = (spalte, zeile), Value = 'O' oder 'X'
 SPALTEN = 7
 ZEILEN = 6
 ZELLEN = SPALTEN * ZEILEN
-RICHTUNGEN = [(-1, -1), (0, -1), (1, -1), (-1, 1), (-1, 0), (1, 0), (-1, 1), (0, 1), (1, 1)]
+RICHTUNGEN = [(-1, -1), (0, -1), (1, -1), (-1, 1), (-1, 0), (1, 0), (-1, 1), (0, 1), (1, 1)] #um sich ein Feld aufzubauen
 
 def findeTiefsteZeile(spalte):
     for zeile in reversed(range(ZEILEN)):
